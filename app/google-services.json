@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1027371532094",
+    "firebase_url": "https://twallpapers-91e1f.firebaseio.com",
+    "project_id": "twallpapers-91e1f",
+    "storage_bucket": "twallpapers-91e1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027371532094:android:9ef48411ea0d7104",
+        "android_client_info": {
+          "package_name": "com.thilinas.twallpapers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1027371532094-mr4jmfma0rilro00af8fcfnt829cnqvm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thilinas.twallpapers",
+            "certificate_hash": "e427f63779f161ca716b10a8d0c72507f2d8a7a2"
+          }
+        },
+        {
+          "client_id": "1027371532094-g9ne3c8a8p8aqe48r173okuava6jf192.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAYPY7wwMQPCk-1rnw4lyudPts9_yPaq0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1027371532094-g9ne3c8a8p8aqe48r173okuava6jf192.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

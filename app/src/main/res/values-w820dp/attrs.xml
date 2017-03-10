@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Fonts">
+        <attr name="font" format="enum">
+            <enum name="karla" value="0"/>
+            <enum name="karlaBold" value="1"/>
+            <enum name="karlaItalic" value="2"/>
+            <enum name="karlaRegular" value="3"/>
+            <enum name="montserrat" value="4"/>
+            <enum name="montserratBold" value="5"/>
+            <enum name="montserratItalic" value="6"/>
+            <enum name="montserratRegular" value="7"/>
+        </attr>
+    </declare-styleable>
+</resources>

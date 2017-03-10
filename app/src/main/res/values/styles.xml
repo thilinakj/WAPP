@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FloatingText" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/medium_orchid</item>
+        <item name="android:textColorHint">@color/medium_orchid</item>
+    </style>
+
+    <!--Input field style-->
+    <style name="FloatingEditText">
+        <item name="colorControlNormal">@color/purple_heart</item>
+        <item name="colorControlActivated">@color/purple_heart</item>
+    </style>
+
+    <style name="MyCheckBox" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>
+    </style>
+
+</resources>

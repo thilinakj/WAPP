@@ -1,0 +1,52 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="side_padding">16dp</dimen>
+    <dimen name="login_edittext_height">40dp</dimen>
+    <dimen name="login_edittext_side_padding">20dp</dimen>
+    <dimen name="login_edittext_font">16sp</dimen>
+    <dimen name="register_pro_pic_length_half">-80dp</dimen>
+    <dimen name="register_pro_pic_length">160dp</dimen>
+    <dimen name="register_list_item_margin_bottom">20dp</dimen>
+    <dimen name="register_floating_list_item_margin_bottom">10dp</dimen>
+    <dimen name="donate_points_list_item_margin_bottom">20dp</dimen>
+    <dimen name="merchants_search_list_item_margin_bottom">20dp</dimen>
+    <dimen name="pay_bulk_list_item_margin_bottom">20dp</dimen>
+    <dimen name="profile_list_item_margin_bottom">20dp</dimen>
+    <dimen name="redeem_list_item_margin_bottom">20dp</dimen>
+    <dimen name="transfer_points_list_item_margin_bottom">20dp</dimen>
+
+    <dimen name="register_item_side_padding">20dp</dimen>
+    <dimen name="game_list_item_thumb_length">40dp</dimen>
+    <dimen name="merchant_list_item_thumb_length">40dp</dimen>
+    <dimen name="transaction_list_item_length">60dp</dimen>
+    <dimen name="transaction_list_item_length_with_padding">80dp</dimen>
+
+    <dimen name="transaction_page_pro_pic_length">130dp</dimen>
+
+    <dimen name="merchant_search_list_item_thumb_length">20dp</dimen>
+    <dimen name="merchant_search_list_company_logo_height">20dp</dimen>
+    <dimen name="merchant_search_list_company_logo_width">60dp</dimen>
+    <dimen name="home_page_tile_image_length">40dp</dimen>
+
+    <dimen name="home_page_drawer_pro_image_length">80dp</dimen>
+    <dimen name="home_page_drawer_list_item_image_length">20dp</dimen>
+    <dimen name="home_page_drawer_list_item_gap">10dp</dimen>
+
+    <dimen name="counter_number_size">40sp</dimen>
+    <dimen name="counter_number_size2">16sp</dimen>
+
+    <dimen name="toolbar_side_item_size">15sp</dimen>
+
+    <dimen name="merchant_details_str_length">18dp</dimen>
+    <dimen name="merchant_details_info_icons_length">25dp</dimen>
+    <dimen name="merchant_details_frag_icons_length">25dp</dimen>
+    <dimen name="close_btn_icons_length">30dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

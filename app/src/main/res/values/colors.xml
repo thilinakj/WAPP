@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#fffc4041</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="col_fb">#0071BC</color>
+    <color name="col_tw">#3FA9F5</color>
+    <color name="col_gp">#FF4B26</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="trans_back">#46000000</color>
+    <color name="trans_back2">#80000000</color>
+
+    <color name="pink">#FF4081</color>
+    <color name="indigo">#3F51B5</color>
+    <color name="lime">#CDDC39</color>
+
+    <color name="cr_grey">#ff636a7c</color>
+    <color name="cr_red">#fffc4041</color>
+    <color name="cr_brown">#ff806446</color>
+    <color name="cr_brown_dark">#ff583722</color>
+    <color name="black_opec">#B3000000</color>
+
+
+    <color name="medium_orchid">#b446d3</color>
+    <color name="purple_heart">#732294</color>
+    <color name="purple_heart_trans">#4D732294</color>
+    <color name="light_gray">#d6d6d6</color>
+    <color name="dark_violet">#850fe4</color>
+    <color name="orange_peel">#ff9a00</color>
+    <color name="orange_peel_dark">#d88403</color>
+    <color name="white_dark">#a69884</color>
+    <color name="electric_violet">#890aeb</color>
+    <color name="electric_violet_opec">#4D890aeb</color>
+    <color name="blue_violet">#762cc5</color>
+    <color name="dark_goldenrod">#c77801</color>
+    <color name="pastel_gray">#cecaca</color>
+    <color name="electric_violet_1">#860ce8</color>
+    <color name="medium_orchid_1">#b345d2</color>
+    <color name="heliotrope">#ca89ff</color>
+    <color name="purple_heart_1">#6c1b9f</color>
+    <color name="purple_heart_2">#79288a</color>
+    <color name="manatee">#979797</color>
+    <color name="munsell">#f2f2f2</color>
+    <color name="trolley_grey">#808080</color>
+    <color name="manatee_1">#9c9c9c</color>
+    <color name="black_1">#000001</color>
+    <color name="c1">#4eae1b</color>
+    <color name="c2">#c11010</color>
+    <color name="dark_gray">#a8a8a8</color>
+    <color name="dim_gray">#6d6d6d</color>
+    <color name="pastel_orange">#ffb74a</color>
+    <color name="medium_orchid_2">#b54ad4</color>
+    <color name="purple_heart_3">#742392</color>
+    <color name="bright_ube">#d59ae7</color>
+    <color name="silver">#c6c6c6</color>
+    <color name="ash_grey">#b7b7b7</color>
+    <color name="dark_gray_1">#aeaeae</color>
+</resources>
