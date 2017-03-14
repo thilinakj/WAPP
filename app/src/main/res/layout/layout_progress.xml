@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@drawable/curved_thin"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content">
+        <com.thilinas.twallpapers.customs.CustomTextView
+            app:font="montserratRegular"
+            android:text=""
+            android:visibility="gone"
+            android:id="@+id/cstText"
+            android:textColor="@color/cr_red"
+            android:paddingBottom="20dp"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/avi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/AVLoadingIndicatorView"
+            app:indicatorName="BallClipRotateMultipleIndicator"
+            app:indicatorColor="@color/cr_red"
+            />
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

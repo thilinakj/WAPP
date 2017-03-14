@@ -46,7 +46,7 @@ import com.google.android.gms.auth.api.signin.GoogleSignInResult;
 
 import com.google.firebase.auth.GoogleAuthProvider;
 import com.thilinas.twallpapers.R;
-import com.thilinas.twallpapers.activities.MyProfileActivity;
+import com.thilinas.twallpapers.activities.MenuActivity;
 import com.thilinas.twallpapers.customs.CustomButton;
 import com.thilinas.twallpapers.customs.CustomEditText;
 import com.thilinas.twallpapers.customs.CustomTextView;
@@ -217,8 +217,11 @@ public class RegisterFragment extends Fragment implements GoogleApiClient.Connec
                     +"\n\tphotoUrl: "+photoUrl
                     +"\n\tuid: "+uid
             );
+            startActivity(new Intent(getActivity(), MenuActivity.class));
+            getActivity().finish();
+        }else{
+            Toast.makeText(getActivity(), "Something went wrong. Please try again.", Toast.LENGTH_SHORT).show();
         }
-        startActivity(new Intent(getActivity(), MyProfileActivity.class));
     }
 
     private void setElements(View view){

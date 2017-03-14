@@ -45,7 +45,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
 import com.thilinas.twallpapers.R;
-import com.thilinas.twallpapers.activities.MyProfileActivity;
+import com.thilinas.twallpapers.activities.MenuActivity;
 import com.thilinas.twallpapers.customs.CustomButton;
 import com.thilinas.twallpapers.customs.CustomEditText;
 import com.thilinas.twallpapers.customs.CustomTextView;
@@ -122,7 +122,8 @@ public class LoginFragment extends Fragment implements GoogleApiClient.Connectio
                             Toast.makeText(getActivity(), "Authentication failed.", Toast.LENGTH_SHORT).show();
                             Log.d(TAG, "fail:" + task.getException().getMessage());
                         }else {
-                            startActivity(new Intent(getActivity(), MyProfileActivity.class));
+                            startActivity(new Intent(getActivity(), MenuActivity.class));
+                            getActivity().finish();
                         }
                     }
                 });
@@ -179,9 +180,11 @@ public class LoginFragment extends Fragment implements GoogleApiClient.Connectio
                             Toast.makeText(getActivity(), "Authentication failed.",
                                     Toast.LENGTH_SHORT).show();
                         }else {
-                            startActivity(new Intent(getActivity(), MyProfileActivity.class));
+                            startActivity(new Intent(getActivity(), MenuActivity.class));
+                            Intent i = new Intent(getActivity(),MenuActivity.class);
+                            startActivity(i);
+                            getActivity().finish();
                         }
-                        // ...
                     }
                 });
     }

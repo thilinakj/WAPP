@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thilinas.twallpapers.activities.MenuActivity">
+
+    <ImageView
+        android:visibility="gone"
+        android:src="@color/white_dark"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:background="@drawable/gradient_red"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.thilinas.twallpapers.customs.CustomTextView
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:paddingBottom="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            app:font="montserratBold"
+            android:text="T Wallpapers"
+            android:textSize="20sp"
+            android:id="@+id/txt_name"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.thilinas.twallpapers.customs.CustomButton
+                    android:gravity="center"
+                    app:font="montserratBold"
+                    android:text="Gallery"
+                    android:textSize="15sp"
+                    android:onClick="onClick"
+                    android:id="@+id/tile1"
+                    android:paddingTop="@dimen/tile_p_top"
+                    android:textAllCaps="false"
+                    android:drawablePadding="0dp"
+                    android:background="@drawable/tile1"
+                    android:drawableTop="@drawable/ic_tile1"
+                    android:textColor="@color/white"
+                    android:layout_width="@dimen/tile_size"
+                    android:layout_height="@dimen/tile_size" />
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="2dp"/>
+                <com.thilinas.twallpapers.customs.CustomButton
+                    android:gravity="center"
+                    app:font="montserratBold"
+                    android:text="Favourites"
+                    android:textSize="15sp"
+                    android:onClick="onClick"
+                    android:id="@+id/tile2"
+                    android:paddingTop="@dimen/tile_p_top"
+                    android:textAllCaps="false"
+                    android:drawablePadding="0dp"
+                    android:background="@drawable/tile2"
+                    android:drawableTop="@drawable/ic_tile2"
+                    android:textColor="@color/white"
+                    android:layout_width="@dimen/tile_size"
+                    android:layout_height="@dimen/tile_size" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.thilinas.twallpapers.customs.CustomButton
+                    android:gravity="center"
+                    app:font="montserratBold"
+                    android:text="Profile"
+                    android:textSize="15sp"
+                    android:onClick="onClick"
+                    android:id="@+id/tile3"
+                    android:paddingTop="@dimen/tile_p_top"
+                    android:textAllCaps="false"
+                    android:drawablePadding="0dp"
+                    android:background="@drawable/tile3"
+                    android:drawableTop="@drawable/ic_tile3"
+                    android:textColor="@color/white"
+                    android:layout_width="@dimen/tile_size"
+                    android:layout_height="@dimen/tile_size" />
+                <View
+                    android:layout_width="20dp"
+                    android:layout_height="2dp"/>
+                <com.thilinas.twallpapers.customs.CustomButton
+                    android:gravity="center"
+                    app:font="montserratBold"
+                    android:text="About Us"
+                    android:textSize="15sp"
+                    android:onClick="onClick"
+                    android:id="@+id/tile4"
+                    android:paddingTop="@dimen/tile_p_top"
+                    android:textAllCaps="false"
+                    android:drawablePadding="0dp"
+                    android:background="@drawable/tile4"
+                    android:drawableTop="@drawable/ic_tile4"
+                    android:textColor="@color/white"
+                    android:layout_width="@dimen/tile_size"
+                    android:layout_height="@dimen/tile_size" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+</RelativeLayout>

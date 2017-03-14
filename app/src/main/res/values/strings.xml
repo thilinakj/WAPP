@@ -33,4 +33,17 @@
     <string name="btn_sign_out">Sign Out</string>
     <string name="lbl_forgot_password">Forgot password?</string>
     <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+
+
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="level_one">Level One</string>
+    <string name="level_two">Level Two</string>
+    <string name="ad_id_interstitial">ca-app-pub-7744357389506091/9257560120</string>
+    <string name="ad_id_banner">ca-app-pub-7744357389506091/6304093723</string>
+    <string name="gameHeader">T Wallpapers</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_full_screen">ca-app-pub-9469961636590299/5782641169</string>
+    <string name="my_favourites">My Favourites</string>
+    <string name="gallery">Gallery</string>
 </resources>

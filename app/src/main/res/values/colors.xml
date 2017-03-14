@@ -12,6 +12,7 @@
     <color name="black">#000000</color>
     <color name="trans_back">#46000000</color>
     <color name="trans_back2">#80000000</color>
+    <color name="white_trans">#80FFFFFF</color>
 
     <color name="pink">#FF4081</color>
     <color name="indigo">#3F51B5</color>
@@ -58,4 +59,10 @@
     <color name="silver">#c6c6c6</color>
     <color name="ash_grey">#b7b7b7</color>
     <color name="dark_gray_1">#aeaeae</color>
+
+    <color name="tile1">#7C4DFF</color>
+    <color name="tile2">#2196F3</color>
+    <color name="tile3">#FFC107</color>
+    <color name="tile4">#E91E63</color>
+
 </resources>
