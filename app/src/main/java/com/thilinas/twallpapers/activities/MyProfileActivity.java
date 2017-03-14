@@ -35,7 +35,7 @@ import com.makeramen.roundedimageview.RoundedImageView;
 import com.thilinas.twallpapers.R;
 import com.thilinas.twallpapers.customs.CustomTextView;
 
-public class MyProfileActivity extends AppCompatActivity {
+public class MyProfileActivity extends NetworkChangeActivity {
 
     String TAG = "RegisterFragmentFIRE" ;
     private FirebaseAuth mAuth;

@@ -26,7 +26,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MyFavouritesActivity extends AppCompatActivity {
+public class MyFavouritesActivity extends NetworkChangeActivity {
 
     private List<Photo> photoList = new ArrayList<>();
     private RecyclerView recyclerView;

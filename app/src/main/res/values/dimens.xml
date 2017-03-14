@@ -58,5 +58,6 @@
 
     <dimen name="tile_size">130dp</dimen>
     <dimen name="tile_p_top">30dp</dimen>
+    <dimen name="popup_pass_padding">5dp</dimen>
 
 </resources>

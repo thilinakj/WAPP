@@ -46,4 +46,5 @@
     <string name="interstitial_full_screen">ca-app-pub-9469961636590299/5782641169</string>
     <string name="my_favourites">My Favourites</string>
     <string name="gallery">Gallery</string>
+    <string name="connEror">Unable to connect with the server. Check your internet connection and try again.</string>
 </resources>

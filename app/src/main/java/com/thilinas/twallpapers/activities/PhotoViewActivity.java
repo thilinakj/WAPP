@@ -41,7 +41,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class PhotoViewActivity extends AppCompatActivity {
+public class PhotoViewActivity extends NetworkChangeActivity {
 
     private List<Photo> photoList = new ArrayList<>();
     private RecyclerView recyclerView;

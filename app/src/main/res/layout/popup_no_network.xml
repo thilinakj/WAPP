@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="0dp"
+    android:gravity="center"
+    android:background="@android:color/transparent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="1dp"
+        app:cardMaxElevation="3dp"
+        app:contentPadding="@dimen/popup_pass_padding">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/detailBox"
+                android:orientation="vertical"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.thilinas.twallpapers.customs.CustomTextView
+                    app:font="montserratBold"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:paddingBottom="5dp"
+                    android:textStyle="bold"
+                    android:text="Connection Error"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#42bc23"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp" />
+                <com.thilinas.twallpapers.customs.CustomTextView
+                    app:font="montserratRegular"
+                    android:textColor="@color/black"
+                    android:paddingTop="15dp"
+                    android:text="@string/connEror"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"  />
+                <LinearLayout
+                    android:paddingTop="15dp"
+                    android:paddingBottom="0dp"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.CardView
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/buttonExit"
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="4dp"
+                        android:orientation="vertical"
+                        android:background="@color/colorbackGr"
+                        app:cardBackgroundColor="@color/colorbackGr"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="1dp"
+                        app:cardMaxElevation="3dp"
+                        app:contentPadding="3dp">
+                        <com.thilinas.twallpapers.customs.CustomTextView
+                            app:font="montserratRegular"
+                            android:text="Exit"
+                            android:textSize="18sp"
+                            android:textColor="#fff"
+                            android:gravity="center"
+                            android:fontFamily="sans-serif"
+                            android:layout_gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </android.support.v7.widget.CardView>
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="3dp"/>
+                    <android.support.v7.widget.CardView
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/buttonTry"
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="4dp"
+                        android:orientation="vertical"
+                        android:background="@color/colorbackGr"
+                        app:cardBackgroundColor="@color/colorbackGr"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="1dp"
+                        app:cardMaxElevation="3dp"
+                        app:contentPadding="3dp">
+                        <com.thilinas.twallpapers.customs.CustomTextView
+                            app:font="montserratRegular"
+                            android:text="Try Again"
+                            android:textSize="18sp"
+                            android:textColor="#fff"
+                            android:gravity="center"
+                            android:fontFamily="sans-serif"
+                            android:layout_gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/searchingBox"
+                android:visibility="gone"
+                android:gravity="center"
+                android:paddingRight="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.thilinas.twallpapers.customs.CustomTextView
+                    app:font="montserratRegular"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:fontFamily="sans-serif"
+                    android:text="Searching for connection."
+                    android:textColor="@color/red_col"
+                    android:textSize="16sp" />
+                <com.wang.avi.AVLoadingIndicatorView
+                    android:id="@+id/progressBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/AVLoadingIndicatorView"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    app:indicatorName="BallClipRotateMultipleIndicator"
+                    app:indicatorColor="@color/cr_red"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -12,7 +12,7 @@ import com.google.android.gms.ads.AdView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.thilinas.twallpapers.R;
 
-public class MenuActivity extends AppCompatActivity {
+public class MenuActivity extends NetworkChangeActivity {
 
     private FirebaseAuth mAuth;
     private AdView mAdView;

@@ -13,7 +13,7 @@ import com.thilinas.twallpapers.R;
 import com.thilinas.twallpapers.fragments.LoginFragment;
 import com.thilinas.twallpapers.fragments.RegisterFragment;
 
-public class LoginActivity extends AppCompatActivity {
+public class LoginActivity extends NetworkChangeActivity {
 
     public FragmentPagerAdapter adapterViewPager;
 
