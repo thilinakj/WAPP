@@ -66,7 +66,7 @@ public class PhotoListAdapter extends RecyclerView.Adapter<PhotoListAdapter.MyVi
         Glide
                 .with(context)
                 .load(url)
-                .diskCacheStrategy(DiskCacheStrategy.SOURCE)
+                .diskCacheStrategy(DiskCacheStrategy.RESULT)
                 .centerCrop()
                 .placeholder(R.drawable.ic_panorama_black_24dp)
                 .crossFade()

@@ -57,7 +57,8 @@ public class MenuActivity extends NetworkChangeActivity {
 
     private void setAds(){
         mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequestBanner = new AdRequest.Builder().addTestDevice("04314D770769A618742A42632138DD3E").build();
+      //  AdRequest adRequestBanner = new AdRequest.Builder().addTestDevice("04314D770769A618742A42632138DD3E").build();
+        AdRequest adRequestBanner = new AdRequest.Builder().build();
         mAdView.loadAd(adRequestBanner);
     }
 

@@ -151,7 +151,7 @@ public class PhotoViewActivity extends NetworkChangeActivity {
     }
 
     public String getUrl(){
-        String url = base_url + "offset="+start+ "&quantity=" +limit;
+        String url = "http://twebs.000webhostapp.com/api.php?" + "offset="+start+ "&quantity=" +limit;
         return  url;
     }
 
